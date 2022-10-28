@@ -39,8 +39,10 @@ function App() {
             </div>
           )
           : 
-          
-          "Loading..."
+          <div>
+            <img src={logo} className="App-logo" />
+            <p>Loading</p>
+          </div>
         }
         
       </header>
