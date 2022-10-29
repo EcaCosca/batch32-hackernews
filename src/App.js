@@ -25,16 +25,18 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className='nav'>
-          <input onChange={handleChange}></input>
-          <button onClick={getResults}>Search</button>
+          <img src={logo} className="App-logo" style={{height:"50px"}}/>
+          <div className='nav'>
+            <input onChange={handleChange}></input>
+            <button onClick={getResults}>Search</button>
+          </div>
         </div>
 
         {
           data ? 
           data.map(hit =>
             <div className="card">
-              <h3>{hit.title}</h3>
-              <h6>{hit.author}</h6>
+              <h5>{hit.title} by <em>{hit.author}</em></h5>
               <p>{hit.url}</p>
             </div>
           )
