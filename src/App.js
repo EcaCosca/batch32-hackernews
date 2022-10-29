@@ -28,7 +28,7 @@ function App() {
           <img src={logo} className="App-logo" style={{height:"50px"}}/>
           <div className='nav'>
             <input onChange={handleChange}></input>
-            <button onClick={getResults}>Search</button>
+            <button className="rainbow rainbow-1" onClick={getResults}>Search</button>
           </div>
         </div>
 

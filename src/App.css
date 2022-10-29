@@ -42,7 +42,46 @@
   justify-content: center;
   align-items: center;
 }
+.nav input {
+  border-radius: 15px 0px 0px 15px;
+  height: 30px;
+  width: 50%;
+  border: 0 none;
+}
 
+.nav button {
+  border-radius: 0px 15px 15px 0px;
+  height: 32px;
+  width: 20%;
+  border: 0 none;
+  background-color: #596478;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav button:hover {
+  border-radius: 0px 15px 15px 0px;
+  height: 32px;
+  width: 20%;
+  border: 2px solid white;
+  background-color: #596478;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.rainbow{
+  background-color: #343A40;
+  border-radius: 4px;  
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  
+}
+
+.rainbow-1:hover{
+   background-image: linear-gradient(90deg, #727290 0%, #4f74d2 49%, #333c70 80%, #86b2f9 100%);
+   animation: slide 5s linear infinite;
+}
 
 
 .App-link {
